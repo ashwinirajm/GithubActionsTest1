@@ -13,11 +13,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Check Java version
-        run: java -version
-
       - name: Run Burp Extension Script
         run: |
-            /Applications/Appium Inspector.app/Contents/MacOS/Appium Inspector
-            
-       #     java -jar "/Applications/Burp Suite Community Edition.app" --cli -P "/Users/ashwiniraj/Documents/burp/errorResponse1.py" --extensions "/Users/ashwiniraj/Documents/burp/jython-standalone-2.7.3.jar"
+            java -jar "/Applications/Burp Suite Community Edition.app/Contents/MacOS/JavaApplicationStub" --cli -P "/Users/ashwiniraj/Documents/burp/errorResponse1.py" --extensions "/Users/ashwiniraj/Documents/burp/jython-standalone-2.7.3.jar"

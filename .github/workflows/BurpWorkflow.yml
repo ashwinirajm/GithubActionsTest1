@@ -16,4 +16,4 @@ jobs:
       - name: Run Burp Extension Script
         run: |
           # Assuming burpsuite.jar is in the current directory
-          java -jar /path/to/burpsuite.jar --cli -P <path_to_project_file> --extensions /path/to/your/extension.jar
+          java -jar /Applications/Burp Suite Community Edition.app/Contents/MacOS/JavaApplicationStub --cli -P /Users/ashwiniraj/Documents/burp/errorResponse1.py --extensions /Users/ashwiniraj/Documents/burp/jython-standalone-2.7.3.jar

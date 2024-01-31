@@ -18,4 +18,4 @@ jobs:
 
       - name: Run Burp Extension Script
         run: |
-            java -jar "/Applications/Burp Suite Community Edition.app/Contents/MacOS/JavaApplicationStub" --cli -P "/Users/ashwiniraj/Documents/burp/errorResponse1.py" --extensions "/Users/ashwiniraj/Documents/burp/jython-standalone-2.7.3.jar"
+            java -jar "/Applications/Burp Suite Community Edition.app" --cli -P "/Users/ashwiniraj/Documents/burp/errorResponse1.py" --extensions "/Users/ashwiniraj/Documents/burp/jython-standalone-2.7.3.jar"
